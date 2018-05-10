@@ -1,0 +1,61 @@
+2018-04-18 18:33:47.810  INFO 8201 --- [main] c.union.unioninfo.UnionInfoApplication   : Starting UnionInfoApplication on caogengleideMacBook-Air.local with PID 8201 (/Users/chenpengfei/IdeaProjects/union-info/target/classes started by chenpengfei in /Users/chenpengfei/IdeaProjects/union-info)
+2018-04-18 18:33:47.820  INFO 8201 --- [main] c.union.unioninfo.UnionInfoApplication   : No active profile set, falling back to default profiles: default
+2018-04-18 18:33:47.940  INFO 8201 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@266374ef: startup date [Wed Apr 18 18:33:47 CST 2018]; root of context hierarchy
+2018-04-18 18:33:49.743  INFO 8201 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2018-04-18 18:33:49.770  INFO 8201 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-18 18:33:49.770  INFO 8201 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-18 18:33:49.776  INFO 8201 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenpengfei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-04-18 18:33:49.860  INFO 8201 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-18 18:33:49.861  INFO 8201 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1922 ms
+2018-04-18 18:33:50.026  INFO 8201 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-18 18:33:50.034  INFO 8201 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-18 18:33:50.034  INFO 8201 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-18 18:33:50.035  INFO 8201 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-18 18:33:50.035  INFO 8201 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-18 18:33:50.167  INFO 8201 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-18 18:33:50.441  INFO 8201 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@266374ef: startup date [Wed Apr 18 18:33:47 CST 2018]; root of context hierarchy
+2018-04-18 18:33:50.503  INFO 8201 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getCarInfo]}" onto public java.lang.String com.union.unioninfo.controllers.InfoController.getCarInfo()
+2018-04-18 18:33:50.510  INFO 8201 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-18 18:33:50.511  INFO 8201 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-18 18:33:50.541  INFO 8201 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-18 18:33:50.541  INFO 8201 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-18 18:33:50.784  INFO 8201 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-18 18:33:50.856  INFO 8201 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-18 18:33:50.865  INFO 8201 --- [main] c.union.unioninfo.UnionInfoApplication   : Started UnionInfoApplication in 3.934 seconds (JVM running for 5.421)
+2018-04-18 18:34:37.776  INFO 8201 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-18 18:34:37.776  INFO 8201 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-18 18:34:37.807  INFO 8201 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-04-18 18:34:37.850  INFO 8201 --- [http-nio-8081-exec-1] c.u.u.controllers.InfoController         : user request getCarInfo
+2018-04-18 18:37:35.910  INFO 8201 --- [http-nio-8081-exec-5] c.u.u.controllers.InfoController         : user request getCarInfo
+2018-04-18 18:45:15.776  INFO 8201 --- [Thread-12] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@266374ef: startup date [Wed Apr 18 18:33:47 CST 2018]; root of context hierarchy
+2018-04-18 18:45:15.785  INFO 8201 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-18 18:45:22.881  INFO 8375 --- [main] c.union.unioninfo.UnionInfoApplication   : Starting UnionInfoApplication on caogengleideMacBook-Air.local with PID 8375 (/Users/chenpengfei/IdeaProjects/union-info/target/classes started by chenpengfei in /Users/chenpengfei/IdeaProjects/union-info)
+2018-04-18 18:45:22.891  INFO 8375 --- [main] c.union.unioninfo.UnionInfoApplication   : No active profile set, falling back to default profiles: default
+2018-04-18 18:45:23.039  INFO 8375 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b34fff9: startup date [Wed Apr 18 18:45:23 CST 2018]; root of context hierarchy
+2018-04-18 18:45:24.915  INFO 8375 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2018-04-18 18:45:24.945  INFO 8375 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-18 18:45:24.945  INFO 8375 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-18 18:45:24.951  INFO 8375 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenpengfei/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-04-18 18:45:25.049  INFO 8375 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-18 18:45:25.050  INFO 8375 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2011 ms
+2018-04-18 18:45:25.246  INFO 8375 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-18 18:45:25.252  INFO 8375 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-18 18:45:25.253  INFO 8375 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-18 18:45:25.254  INFO 8375 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-18 18:45:25.254  INFO 8375 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-18 18:45:25.397  INFO 8375 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-18 18:45:25.682  INFO 8375 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b34fff9: startup date [Wed Apr 18 18:45:23 CST 2018]; root of context hierarchy
+2018-04-18 18:45:25.761  INFO 8375 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getCarInfo]}" onto public java.lang.String com.union.unioninfo.controllers.InfoController.getCarInfo()
+2018-04-18 18:45:25.768  INFO 8375 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-18 18:45:25.769  INFO 8375 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-18 18:45:25.809  INFO 8375 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-18 18:45:25.809  INFO 8375 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-18 18:45:26.056  INFO 8375 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-18 18:45:26.136  INFO 8375 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2018-04-18 18:45:26.144  INFO 8375 --- [main] c.union.unioninfo.UnionInfoApplication   : Started UnionInfoApplication in 4.195 seconds (JVM running for 5.4)
+2018-04-18 18:45:38.576  INFO 8375 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-18 18:45:38.576  INFO 8375 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-18 18:45:38.596  INFO 8375 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-04-18 18:45:38.628  INFO 8375 --- [http-nio-8081-exec-1] c.u.u.controllers.InfoController         : user request getCarInfo
+2018-04-18 18:50:23.799  INFO 8375 --- [Thread-12] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b34fff9: startup date [Wed Apr 18 18:45:23 CST 2018]; root of context hierarchy
+2018-04-18 18:50:23.803  INFO 8375 --- [Thread-12] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
